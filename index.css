@@ -1,0 +1,27 @@
+body{
+    font-family: 'Odibee Sans', cursive;
+}
+.li-item{
+    font-size: 20px;
+    padding: 0 40px 40px 40px;
+    display: inline;
+}
+
+.navbar{
+    border-bottom: 2px dashed;
+    padding:20px;
+}
+
+#title, .navbar,.place-title{
+    text-align: center;
+}
+
+.places{
+    display: inline-block;
+    margin:0 20px;
+}
+
+.places img{
+    width: 100px;
+    height: 100px;
+}
