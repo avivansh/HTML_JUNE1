@@ -25,3 +25,13 @@ body{
     width: 100px;
     height: 100px;
 }
+
+table,td,th{
+    border:2px solid black;
+    border-collapse: collapse;
+    padding: 10px
+}
+
+.bg_blue{
+    background-color: blue;
+}
