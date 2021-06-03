@@ -1,0 +1,96 @@
+body {
+  background-color: #54c3ef;
+}
+
+.back_to_home {
+  font-size: 20px;
+  color: #fff748;
+  font-family: "Source Sans Pro", sans-serif;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+
+.heading {
+  text-align: center;
+  color: #fad744;
+  font-size: 90px;
+  font-family: "Caveat Brush", cursive;
+  text-shadow: 2px 5px #2b3252;
+}
+
+.main_body {
+  width: 71%;
+  background-color: white;
+  border: 2px dashed #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: flex;
+  margin: 4% 16%;
+}
+/* .video_section_body{} */
+.video {
+  display: inline-block;
+  width: 70%;
+  padding-right: 12px;
+  padding-bottom: 16px;
+  padding-left: 12px;
+}
+
+.only_video {
+  width: 100%;
+  height: 400px;
+}
+.views {
+  font-size: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 16px;
+}
+.video_title,
+.video_description {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.video_description {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.7);
+  letter-spacing: 1px;
+  line-height: 1.3;
+}
+
+.image_section {
+  display: inline-block;
+  width: 26%;
+  border-left: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.single_image {
+  margin: 10px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.img-size {
+  width: 100%;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  /* text-align: center; */
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+footer {
+  background-color: cornsilk;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 10px;
+}
