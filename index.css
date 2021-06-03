@@ -1,37 +1,42 @@
-body{
-    font-family: 'Odibee Sans', cursive;
+body {
+  font-family: "Odibee Sans", cursive;
 }
-.li-item{
-    font-size: 20px;
-    padding: 0 40px 40px 40px;
-    display: inline;
-}
-
-.navbar{
-    border-bottom: 2px dashed;
-    padding:20px;
+.li-item {
+  font-size: 20px;
+  padding: 0 40px 40px 40px;
+  display: inline;
 }
 
-#title, .navbar,.place-title{
-    text-align: center;
+.navbar {
+  border-bottom: 2px dashed;
+  padding: 20px;
 }
 
-.places{
-    display: inline-block;
-    margin:0 20px;
+#title,
+.navbar,
+.place-title {
+  text-align: center;
 }
 
-.places img{
-    width: 100px;
-    height: 100px;
+.places {
+  display: inline-block;
+  margin: 0 20px;
 }
 
-table,td,th{
-    border:2px solid black;
-    border-collapse: collapse;
-    padding: 10px
+.places img {
+  width: 100px;
+  height: 100px;
 }
 
-.bg_blue{
-    background-color: blue;
+table,
+td,
+th {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.bg_blue {
+  background-color: rgba(63, 165, 200, 0.45);
+  font-weight: bold;
 }
