@@ -31,10 +31,8 @@ body {
 /* .video_section_body{} */
 .video {
   display: inline-block;
-  width: 70%;
-  padding-right: 12px;
-  padding-bottom: 16px;
-  padding-left: 12px;
+  width: 65%;
+  padding: 20px;
 }
 
 .only_video {
@@ -45,7 +43,8 @@ body {
   font-size: 24px;
   font-family: "Source Sans Pro", sans-serif;
   color: rgba(0, 0, 0, 0.7);
-  margin-top: 16px;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 .video_title,
 .video_description {
@@ -60,13 +59,14 @@ body {
 
 .image_section {
   display: inline-block;
-  width: 26%;
+  width: 28%;
   border-left: 1px solid #ccc;
   padding-top: 10px;
+  padding-left: 10px;
 }
 
 .single_image {
-  margin: 10px;
+  margin: 20px;
   cursor: pointer;
   width: 100%;
   border-radius: 10px;
@@ -93,4 +93,6 @@ footer {
   text-align: center;
   padding: 10px 0;
   margin-top: 10px;
+  /* bottom: 0;
+  position: absolute; */
 }
