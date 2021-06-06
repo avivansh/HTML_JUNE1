@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: white;
+  height: 100px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  width: 90px;
+  height: 50px;
+  margin-left: 50px;
+}
+.menu {
+  padding: 10px;
+  /* box-sizing: border-box; */
+}
+.menu_home {
+  color: black;
+  text-decoration: blue underline;
+}
+
+.underline {
+  border-bottom: 2px solid blue;
+}
+
+.menu span {
+  margin: 40px;
+}
+
+.menu_item {
+  color: rgb(170, 170, 170);
+}
+
+.menu_button {
+  padding: 15px 25px;
+  color: rgb(80, 80, 233);
+  background-color: rgb(245, 184, 194);
+  border-radius: 21px;
+}
+.first_section {
+  width: 100%;
+  display: flex;
+}
+
+.fs_left {
+  width: 50%;
+  /* border: 1px solid black; */
+  background-color: white;
+  /*! display: flex; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.fs_right {
+  width: 50%;
+  /* border: 1px solid black; */
+}
+
+.fs_left_btn {
+  padding: 10px 50px;
+
+  color: white;
+  background-color: rgba(109, 29, 214, 0.822);
+  border-radius: 21px;
+}
+
+.fs_heading {
+  font-size: 90px;
+  font-weight: 1000;
+  max-width: 200px;
+  margin-left: 250px;
+  margin-bottom: 45px;
+}
+
+.fs_para {
+  color: rgb(170, 170, 170);
+  font-size: 20px;
+  max-width: 450px;
+  margin-left: 250px;
+  margin-bottom: 45px;
+}
+
+.btn_arrow {
+  display: flex;
+  flex-direction: row;
+  margin-left: 70px;
+  margin-left: 250px;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+
+.item1 {
+  display: flex;
+  background-color: rgb(243, 243, 243);
+  margin-bottom: 8px;
+}
+
+b {
+  margin: 10px;
+  margin-right: 20px;
+}
+
+.item1 span {
+  margin: 10px;
+}
+
+.arrow {
+  width: 50px;
+  height: 50px;
+  margin-left: 40px;
+}
+
+.fs_left_items {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  margin-left: 250px;
+  width: 310px;
+}
+.user1,
+.user2,
+.user3,
+.user4 {
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+.user1 {
+  margin-left: 45px;
+}
+.user2 {
+  margin-left: 18px;
+}
+.user3 {
+  margin-left: 51px;
+}
+
+.user4 {
+  margin-left: 70px;
+}
+.fs_right {
+  margin-right: 100px;
+  margin-top: 40px;
+}
+.fs_right_image {
+  height: 700px;
+  width: 100%;
+}
+
+#second_user {
+  background-color: white;
+  box-shadow: 8px 8px 5px rgb(224, 223, 223);
+}
