@@ -11,3 +11,14 @@
   width: 100px;
   margin: 11px;
 }
+#stopwatch {
+  width: 100%;
+}
+
+#btn-start,
+#btn-stop,
+#btn-clear {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}

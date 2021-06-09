@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./todolist.css" />
+  </head>
+  <body>
+    <div id="add-an-item">
+      <input id="input" placeholder="add a todo to the list" /><br />
+      <button id="btn-to-add">add to the to do list</button>
+    </div>
+
+    <div id="list"></div>
+
+    <script>
+      const add_button = document.querySelector("#btn-to-add");
+      const to_do_item = document.querySelector("#input");
+      let to_do_list = [];
+      let id = 0;
+      const list_container = document.querySelector("#list");
+      add_button.addEventListener("click", (add) => {
+        let obj = { title: to_do_item.value, id };
+        to_do_list.push(obj);
+
+        const item = document.createElement("div");
+        item.className = "to-do";
+        list_container.appendChild(item);
+
+        const para = document.createElement("p");
+        para.textContent = to_do_item.value;
+        item.appendChild(para);
+        para.className = "para";
+
+        const remove_btn = document.createElement("button");
+        remove_btn.textContent = "delete";
+        remove_btn.className = "remove";
+        remove_btn.id = `${id}`;
+        id++;
+
+        item.appendChild(remove_btn);
+
+        remove_btn.addEventListener("click", (del) => {
+          list_container.removeChild(
+            list_container.childNodes[del.target.id - 1]
+          );
+        });
+      });
+    </script>
+  </body>
+</html>
