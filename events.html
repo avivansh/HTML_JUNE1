@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" , href="./events.css" />
+  </head>
+  <body>
+    <div>
+      <h1>problem 1</h1>
+    </div>
+
+    <!--problem 1-->
+
+    <label>First Name</label>
+    <input id="first_name" placeholder="Enter your first name please" /><br />
+
+    <label>Last Name</label>
+    <input id="last_name" placeholder="Enter your last name please" /><br />
+
+    <label>Age</label>
+    <input id="age" placeholder="Enter your age please" /><br />
+    <button id="btn1">Submit</button> <br />
+
+    <!--problem2-->
+    <h1>problem 2</h1>
+    <label>Number</label>
+    <input id="number" placeholder="Enter any number here" /><br />
+    <button id="btn2">play</button>
+    <div id="main_container"></div>
+
+    <script>
+      const firstname = document.querySelector("#first_name");
+      const lastname = document.querySelector("#last_name");
+      const age = document.querySelector("#age");
+      const button = document.querySelector("#btn1");
+      button.addEventListener("click", (submit) => {
+        alert(
+          `Your Name is ${firstname.value} ${lastname.value}\n Your Age is ${age.value}`
+        );
+      });
+
+      function getRandomColor() {
+        var letters = "0123456789ABCDEF";
+        var color = "#";
+        for (var i = 0; i < 6; i++) {
+          color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+      }
+      const num = document.querySelector("#number");
+      const button2 = document.querySelector("#btn2");
+      const main_container = document.querySelector("#main_container");
+      button2.addEventListener("click", (play) => {
+        const no_of_blocks = num.value;
+        // alert(`entered value is :- ${no_of_blocks}`);
+        main_container.innerHTML = "";
+        for (let i = 1; i <= no_of_blocks; i++) {
+          let block = document.createElement("div");
+          block.className = "block";
+          block.style.backgroundColor = getRandomColor();
+          console.log(block.style.color);
+          main_container.appendChild(block);
+        }
+      });
+    </script>
+  </body>
+</html>
