@@ -1,0 +1,50 @@
+.img_btn {
+  width: 100px;
+}
+
+#full_image {
+  width: 30%;
+  height: 90%;
+  margin-top: 20px;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+}
+
+#left_container {
+  margin-left: 50px;
+}
+
+.img_btn,
+#name,
+#brand,
+#price,
+#desc,
+#desc_exp,
+#preview,
+#add_to_cart {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+#add_to_cart {
+  margin-top: 50px;
+  padding: 10px 20px;
+  background-color: rgb(11, 90, 11);
+  color: white;
+}
+
+#name,
+#brand,
+#price,
+#desc,
+#preview,
+#add_to_cart {
+  font-size: 25px;
+}
+
+#desc_exp {
+  font-size: 20px;
+}
